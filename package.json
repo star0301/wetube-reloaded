@@ -1,0 +1,45 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "Wetube clone coding try",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/star0301/wetube-reloaded.git"
+  },
+  "scripts": {
+    "dev": "nodemon",
+    "assets": "webpack --config webpack.config.js"
+  },
+  "author": "JK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/star0301/wetube-reloaded/issues"
+  },
+  "homepage": "https://github.com/star0301/wetube-reloaded#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.1.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "node-fetch": "^2.6.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "mini-css-extract-plugin": "^2.6.0",
+    "nodemon": "^2.0.15",
+    "sass": "^1.52.1",
+    "sass-loader": "^13.0.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}

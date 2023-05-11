@@ -1,0 +1,10 @@
+extends base
+
+block content 
+  if errorMsg 
+    span=errorMsg
+  form(method="post")
+    input(name="oldpwd", type="password", placeholder="Current Password")
+    input(name="newpwd", type="password", placeholder="New Password")
+    input(name="newpwdconfirm", type="password", placeholder="Current Password")
+    input(type="submit", value="Change Password!")

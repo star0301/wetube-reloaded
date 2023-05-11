@@ -1,0 +1,15 @@
+extends base.pug
+
+block content 
+  if errorMsg 
+    span=errorMsg
+  form(method="POST")
+    input(name="username", type="text", required, placeholder="username..")
+    input(name="password", type="password", required, placeholder="password..")
+    input(type="submit", value="Log-In")
+    br
+    a(href="/users/github/start") Continue with Github &rarr;
+  hr
+  div 
+    span Wanna Make a new Account? 
+      a(href="/join") Create Now &rarr;
